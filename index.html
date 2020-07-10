@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+
+</head>
+
+<body class="bodies">
+    <div class="header ">
+        <div class="container">
+           <div class="row">
+            <div class="col-md-4"></div>
+            <div class="col-md-4">
+                <h1 class="text-light text-center">Stopwatch </h1>
+            </div>
+            <div class="col-md-4 text-center"><h4 class="text-light pl-5">Designed by shahzaib</h4></div>
+           </div> 
+        </div>
+    </div>
+
+    <!-- headeer end -->
+        <div class="stop">
+            <div class="container">
+                <div class="row">
+                 <div class="col-md-4 text-center col-sm-4 col-4 text-light">  <h2>Min</h2><h1 id="min" class="screen">0</h1> </div>
+                  <div class="col-md-4 text-center col-sm-4 col-4 text-light "> <h2>Sec</h2> <h1 id="sec" class="screen">0</h1> </div>
+                  <div class="col-md-4 text-center col-sm-4 col-4 text-light"> <h2>Msec</h2>  <h1 id="msec" class="screen">0</h1> </div>
+                
+                </div>
+            </div>
+        </div>
+<!-- stop end -->
+        <div class="buttons ">
+            <div class="container text-center">
+                <div class="row ">
+                   <div class="col-md-3"></div>
+                   <div class="col-md-2 col-sm-4 col-4  pad"> <button class="button" onclick="start()">Start</button></div>
+                   <div class="col-md-2 col-sm-4 col-4 pad2">  <button class="button" onclick="pause()">pause</button></div>
+                   <div class="col-md-2 col-sm-4 col-4 pad3">    <button class="button" onclick="reset()">Reset</button></div>
+                   <div class="col-md-3"></div>
+                </div>
+            </div>
+        </div>
+  
+          
+           
+
+
+
+    <script src="app.js"></script>
+</body>
+
+</html>
+<!-- <div>
+    <button onclick="start()">Start</button>
+    <button onclick="pause()">pause</button>
+    <button onclick="reset()">Reset</button>
+</div>
+ -->
+
+
